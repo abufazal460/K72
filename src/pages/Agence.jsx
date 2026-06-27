@@ -57,18 +57,18 @@ const Agence = () => {
       <div className="section1 relative py-1 bg-[#ffffff] text-black">
         <div
           ref={imagesDivRef}
-          className="absolute overflow-hidden  w-[15vw] h-[20vw] rounded-2xl top-[12vw] left-[30vw]"
+          className="absolute overflow-hidden lg:w-[15vw] w-[25vw] lg:h-[20vw] h-[35vw] lg:rounded-2xl rounded-xl lg:top-[12vw] left-[30vw]"
         >
           <img
             ref={imagesRef}
-            className="rounded-2xl h-full w-full object-cover"
+            className="lg:rounded-2xl rounded-xl h-full w-full object-cover"
             src="https://k72.ca/uploads/teamMembers/Carl_480x640-480x640.jpg"
             alt="no images"
           />
         </div>
 
         <div className="relative font-[font2]">
-          <div className="mt-[50vh]">
+          <div className="lg:mt-[50vh] mt-[30vh]">
             <h1 className="text-[20vw] leading-none uppercase text-center lg:px-20 px-0">
               Sixty-seventh Twelve
             </h1>
